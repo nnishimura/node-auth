@@ -2,6 +2,8 @@
 
 JWT auth provider + user management system written in nodejs.
 
+## Tech stacks
+
 * Language: Typescript 
 * Framework: [Express](https://expressjs.com/)
 * Database: postgres
@@ -9,6 +11,12 @@ JWT auth provider + user management system written in nodejs.
 * Payload validation: [celebrate](https://www.npmjs.com/package/celebrate)
 * JWT token: [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
 * Test: jest, [supertest](https://www.npmjs.com/package/supertest)
+
+## Features
+* issue token & introspect token endpoints
+* user regsitration & login
+* express auth token authentication middleware
+* TODO: refresh token
 
 ### Getting started
 To run app on docker:
